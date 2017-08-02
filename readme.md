@@ -6,9 +6,9 @@ This is a command line interface for mPAY24 that will allow you to import your e
 
 ## Usage
 
-Download the binary then run
+Download a precompiled binary from [here](https://github.com/tobiaslins/mpay24-import-customer/releases)
 
-Get help
+Display help from CLI
 ```bash
 ./mpay24-import-customer -h
 ```
@@ -16,6 +16,20 @@ Get help
 Example
 ```bash
 ./mpay24-import-customer -t -u 99999 -p password example.csv
+```
+
+## Running from source
+
+First install all dependencies by running `npm install` or `yarn` in the direcory.
+
+Display help from CLI 
+```bash
+node build/main.js -h
+```
+
+Example
+```bash
+node build/main.js -t -u 99999 -p password example.csv
 ```
 
 ## CSV
