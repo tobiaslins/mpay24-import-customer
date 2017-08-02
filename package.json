@@ -1,0 +1,28 @@
+{
+  "name": "mpay24-import-customer",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "bin": "build/main.js",
+  "license": "MIT",
+  "author": "Tobias Lins <me@tobi.sh>",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build",
+    "postinstall": "backpack build"
+  },
+  "dependencies": {
+    "backpack-core": "^0.4.1",
+    "commander": "^2.11.0",
+    "credit-card-type": "^5.0.3",
+    "csv-parse": "^1.2.1",
+    "ink": "^0.3.0",
+    "mpay24-node": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-h-jsx": "^1.0.0"
+  },
+  "pkg": {
+    "assets": ["node_modules/soap/lib/security/templates/*"]
+  }
+}
