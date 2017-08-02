@@ -2,6 +2,8 @@
 
 This is a command line interface for mPAY24 that will allow you to import your existing creditcard profiles to the mPAY24 system.
 
+![Demo](https://media.giphy.com/media/26n6xVcLjwcQLQXdu/giphy.gif)
+
 ## Usage
 
 Download the binary then run

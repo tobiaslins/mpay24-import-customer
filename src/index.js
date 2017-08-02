@@ -52,7 +52,6 @@ const main = async () => {
   const parser = parse({ delimiter: ';', columns: true }, (err, data) => {
     render(<Import accounts={data} />)
   })
-  console.log(process.cwd())
   fs.createReadStream(path.join(__dirname, '../' + cmdValue)).pipe(parser)
 }
 
