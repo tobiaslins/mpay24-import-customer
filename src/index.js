@@ -38,7 +38,7 @@ if (typeof cmdValue === 'undefined') {
 const env = program.test ? 'TEST' : 'LIVE'
 
 console.log(`Importing csv: ${cmdValue}`)
-console.log(`Importing profile to merchant ${program.merchantid}`)
+console.log(`Importing profiles to merchant ${program.merchantid}`)
 console.log(`Connecting to ${env} environment`)
 
 const main = async () => {
